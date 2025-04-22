@@ -1,0 +1,37 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# dotenv files
+.env
+
+# Firebase service account key
+firebase-service.json
+firebase-adminsdk-*.json
+serviceAccountKey.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build folders (optional)
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# Firebase functions build (if using Firebase Cloud Functions)
+functions/node_modules/
+functions/lib/
+
+# Example: ignore all JSON keys except the example
+*.json
+!firebase-service.example.json
